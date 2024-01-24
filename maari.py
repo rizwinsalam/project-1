@@ -1,33 +1,14 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[3]:
-
-
 import pandas as pd
-
-
-# In[15]:
-
-
 df=pd.read_csv("C:/Users/USER/Downloads/note 13.csv")
 
-
-# In[47]:
-
-
 d={x*2: x for x in range(8)}
-
-
-# In[50]:
-
 
 print(d)
 print(d[0])
 print(d[2])
 print(d[4])
 print(d[6])
-#0,2,4,6 are keys. 0,1,2,3 are values. values comes as output.
+#0,2,4,6 are keys. 0,1,2,3 are values. values come as output.
 
 
 # In[52]:
